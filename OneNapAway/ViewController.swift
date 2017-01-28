@@ -20,7 +20,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // Set up location manager
+        // Set up location manager     
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
